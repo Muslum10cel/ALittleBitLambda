@@ -89,6 +89,8 @@ public class LambdaAndStream {
         System.out.printf("Sorted values greater than 4 : %s%n", greaterThan4.stream().sorted().collect(Collectors.toList()));
 
         System.out.printf("Original Values %s%n", Arrays.asList(vals));
+        
+        /*######################################################################*/
         String[] strings = {"Red", "orange", "Yellow", "green", "Blue", "indigo", "Violet"};
 
         System.out.printf("Original Values %s%n", Arrays.asList(strings));
